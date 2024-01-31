@@ -24,7 +24,7 @@ function validateLogin() {
         errorMessage.innerHTML = 'Invalid username or password.';
     }
 }
-// Retrieve the username from localStorage on page load
+// grabs username from sign in page
 document.addEventListener('DOMContentLoaded', function () {
     var storedUsername = localStorage.getItem('username');
     var el = document.getElementById('content');
