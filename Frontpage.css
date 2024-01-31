@@ -19,6 +19,12 @@ nav{
   top: 0;
 }
 
+nav2{
+  position: sticky;
+  text-align: right;
+
+}
+
 .container1 {
   background-image: url('vietnam.jpg');
   background-size: cover;
