@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Rolando, Josh and Andrei Portfolio SIGNUP</title>
-  <link href="login.css" rel="stylesheet" type="text/css" />
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rolando, Josh and Andrei Portfolio SIGNUP</title>
+    <link href="login.css" rel="stylesheet" type="text/css" />
+  </head>
   <body>
     <div id="SignupContainer">
       <div class="signupBox">
@@ -14,15 +16,14 @@
           <h3> SIGN IN</h3>
         </header>
         <form action="#">
-          <input type="text" name="username" placeholder="Username" required autocomplete="off" >
+          <input id="username" name="username" placeholder="Username" required autocomplete="off">
           <i class='bx bxs-user'></i>
-      
-          <input type="password" placeholder="Password" required autocomplete="off">
-          <label><input type="checkbox"><small>Remember Me</small></label>
+
+          <input id="password" type="password" placeholder="Password" required autocomplete="off">
+          <label class="remember-me"><input type="checkbox">Remember Me</label>
           <a href="#"><small>Forgot Password?</small></a>
           <button type="button" onclick="validateLogin()">Login</button>
           <p id="errorMessage" class="error-message"></p>
-        </div>
         </form>
         <footer>
           <p>
@@ -31,10 +32,9 @@
         </footer>
       </div>
     </div>
-    <script  src="script.js">      
-    </script>
+    <script src="script.js"></script>
     <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
   </body>
-</html>
+  </html>
 
 

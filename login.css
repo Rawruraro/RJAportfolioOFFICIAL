@@ -11,6 +11,7 @@ body {
   background-size: cover;
 }
 
+
 #SignupContainer {
   border: 1px solid #ddd;
   width: 350px;
@@ -72,7 +73,7 @@ header button {
 }
 
 .seperator {
-  color: #8e8e8e;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 18px;
@@ -113,7 +114,7 @@ form input {
 }
 
 form input:focus {
-  border-color: #999;
+  border-color: #ffffff;
 }
 
 form input::placeholder {
@@ -131,7 +132,6 @@ form button {
   font-weight: bold;
   border-radius: 4px;
   outline: none;
-  opacity: 0.4;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -146,4 +146,13 @@ footer p a {
   text-decoration: none;
   color: #8e8e8e;
   font-weight: 600;
+}
+form input[type="checkbox"] {
+  width: 5%;
+  margin-right: 5px;
+}
+form .remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
 }
