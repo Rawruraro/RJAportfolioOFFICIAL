@@ -24,11 +24,20 @@ body {
 }
 
 header h2 {
-  font-family: 'Amita', cursive;
   font-size: 40px;
   margin: 15px 0px 5px;
   text-align: center;
-  color: #262626;
+  color: #fefbfb;
+  text-shadow: 4px 4px #898b37
+  
+}
+
+header h3 {
+  font-size: 30px;
+  margin: 15px 0px 5px;
+  text-align: center;
+  color: #403f3b;
+  text-shadow: 4px 4px #898b37
 }
 
 header p {
@@ -54,16 +63,12 @@ header button {
   border-radius: 4px;
   outline: none;
   font-family: 'Segoe UI', sans-serif;
-  cursor: pointer;
+  
 }
 
 .fab {
   font-size: 18px;
   margin: 0 8px;
-}
-
-header button:active {
-  opacity: 0.6;
 }
 
 .seperator {
@@ -128,7 +133,6 @@ form button {
   outline: none;
   opacity: 0.4;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
 }
 
 .signupBox footer {
@@ -142,90 +146,4 @@ footer p a {
   text-decoration: none;
   color: #8e8e8e;
   font-weight: 600;
-}
-
-#BottomContainer {
-  border: 1px solid #ddd;
-  width: 350px;
-  margin: 10px auto 20px;
-  overflow: auto;
-  background-color: #fff;
-  text-align: center;
-  font-size: 14px;
-}
-
-#BottomContainer p {
-  margin: 25px;
-}
-
-#BottomContainer p a {
-  text-decoration: none;
-  color: #887516;
-}
-
-#AppsContainer {
-  text-align: center;
-  font-size: 14px;
-  padding-bottom: 25px;
-  width: 350px;
-  margin: 0px auto 40px;
-}
-
-#AppsContainer img {
-  display: inline-block;
-  height: auto;
-  width: 40%;
-  padding: 20px 2px;
-  cursor: pointer;
-}
-
-#LastContainer {
-  margin: 0px auto 40px;
-  width: 80%;
-}
-
-#LastContainer .links {
-  display: inline-block;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 24px;
-  width: 70%;
-}
-
-#LastContainer .links a {
-  text-decoration: none;
-  color: #887516;
-  padding: 0px 8px;
-}
-
-#LastContainer .copyright {
-  display: inline-block;
-  width: 29%;
-  text-align: center;
-}
-
-#LastContainer .copyright p {
-  color: #8e8e8e;
-  font-size: 12px;
-  font-weight: 500;
-}
-
-@media (max-width: 768px) {
-  #AppsContainer {
-    margin-bottom: 12px;
-  }
-  #LastContainer {
-    margin: 0px auto;
-  }
-
-  #LastContainer .links,
-  #LastContainer .copyright {
-    margin: 2px auto;
-    width: 100%;
-  }
-
-  #LastContainer .copyright p {
-    margin-bottom: 10px;
-  }
 }
