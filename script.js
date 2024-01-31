@@ -16,7 +16,7 @@ function validateLogin() {
 
     if (validUser) {
         // On successful login
-        errorMessage.innerHTML = 'Login Success!';
+        errorMessage.innerHTML = 'Login Success! Audio Warning, sound will play when you press OK';
         alert('Login successful!');
         window.location.href = 'Frontpage.html'; // Redirect to the home page
     } else {
