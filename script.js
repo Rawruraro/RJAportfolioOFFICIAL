@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (storedUsername === 'Ratman') { //changes the link in "content" depending on the username
         content = '<a href="https://29508913-8096-4ddd-813b-d6b9165a0165-00-7i2vgpaoho8b.picard.repl.co/">Andrei Resume</a>';
     } else if (storedUsername === 'Rawru') {
-        content = '<a href="https://035e79d6-fc53-4ba1-9dee-9bdf6200d4dd-00-imb2m36ld53q.riker.replit.dev/">Rolando Resume</a>';
+        content = '<a href="https://rawruraro.github.io/Rolando-Resume/">Rolando Resume</a>';
     } else if (storedUsername === 'Impartial') {
         content = '<a href="https://a4b22d59-9a88-44d7-9f02-0e8e28893961-00-192d75gwpyto0.janeway.replit.dev/">Josh Resume</a>';
     }
