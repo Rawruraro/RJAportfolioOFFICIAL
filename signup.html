@@ -11,11 +11,14 @@
   <body>
     <div id="SignupContainer">
       <div class="signupBox">
+        <nav>
+          <span style="text-align: center;"><p><a href="./index.html">Return to Login Page</a><p></span>
+         </nav>
         <header>
           <h2>BROKE KIDZ</h2>
           <h3> SIGN IN</h3>
         </header>
-        <form action="#">
+        <form action="#"> 
           <input id="name" name="name" placeholder="Name" required>
           <input id="pass" type="password" placeholder="Password" required>
           <input id="confirmPass" type="password" placeholder="Confirm Password" required>
@@ -23,6 +26,7 @@
           <input id="Favclr" name="Favclr" placeholder="Favourite Color">
           <input id="Favfood" name="Favfood" placeholder="Favourite Food">
           <button type="button" onclick="signUp()">Sign Up</button>
+          <!-- Upon clicking the button above, run a check in js and replace the ids below with text if succesful -->
           <p id="signupMessage" class="error-message"></p>
           <p id="signedName"></p>
           <p id="signedPass"</p>

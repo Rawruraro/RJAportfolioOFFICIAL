@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function signUp() {
+  //grab content of the ids in signup pag after clicking Sign Up button
   var name = document.getElementById('name').value;
   var pass = document.getElementById('pass').value;
   var confirmPass = document.getElementById('confirmPass').value;
@@ -50,7 +51,7 @@ function signUp() {
   var Favfood = document.getElementById('Favfood').value;
   var signupMessage = document.getElementById('signupMessage');
 
-  if (confirmPass == pass){
+  if (confirmPass == pass){ //replaces and shows success message when password matches confirmed password
     signupMessage.innerHTML = 'Sign Up Success!';
   
     var signedName = document.getElementById('signedName');
@@ -68,7 +69,7 @@ function signUp() {
     var signedFavfood = document.getElementById('signedFavfood');
     signedFavfood.innerHTML = 'Favorite Food: ' + Favfood;
   }
-  else {
+  else { //when pass does not match confirmed pass, shows error message
     signupMessage.innerHTML = 'Password does not match!';
   }
 }
