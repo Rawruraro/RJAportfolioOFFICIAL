@@ -1,3 +1,7 @@
+<?php
+include("db_rja.php");
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,13 +14,12 @@
 <body>
   <div class="container">
     <span><p>This website plays audio. Volume Warning.</p></span>
-    <nav>
-      <span><p><a href="./Frontpage.html">Front Page</a> | </p></span>
-      <span><p><a href="./Members.html">Members</a> | </p></span>
-      <span><p><a href="./Goals.html">Goals</a> | </p></span> 
-      <span><p><a href="./index.html">Logout</a></p></span>
-      <!-- fix the logout button -->
-     </nav>
+              <nav>
+                <span><p><a href="./Frontpage.php">Front Page</a> | </p></span>
+                <span><p><a href="./Members.php">Members</a> | </p></span>
+                <span><p><a href="./Goals.php">Goals</a> | </p></span> 
+                <span><p><a href="./index.php">Logout</a> </p></span>
+               </nav>
   </div>
   <div class="container">
   <audio src="StylishStickup.mp3" id="Stylish Stickup from Phighters" loop autoplay controls onloadeddata="setHalfVolume()"></audio> <!-- music for browsing -->
@@ -51,8 +54,6 @@
           <p style="text-align:start;">Hi, I am Andrei, Farrell if you fancy it. I like video games, retro stuff including music in that category, and art stuff too. My passion for video games and their environments has led me wanting to make some of my own which is why I ended up here! I also have an undying love for Rolando and Josh... the video playing right now is my love letter to them</p>
         </div>
       </div>
-  <script src="script.js"></script>
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+      <script src="script.js"></script>
 </body>
-
 </html>

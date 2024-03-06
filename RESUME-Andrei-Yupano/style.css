@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h2, p {
+  text-align: center;
+  color: #ead7d7;
+  text-shadow: 4px 4px #6e8f14;
+}
+
+h1 {
+    text-align: center;
+    color: #ffbb00;
+    text-shadow: 4px 4px #6e8f14;
+
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #ead7d7;
+  background-image: url('forest bg.jpg');
+  background-size: cover;
+  position: sticky;
+  outline: black 5px;
+  text-align: center;
+}

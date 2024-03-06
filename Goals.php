@@ -1,3 +1,8 @@
+<?php
+include("db_rja.php");
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,13 +14,14 @@
 
 <body> 
   <div class="container">
-    <span><p style="text-align: center;">This website plays audio. Volume Warning.</p></span>
-    <nav>
-      <span><p><a href="./Frontpage.html">Front Page</a> | </p></span>
-      <span><p><a href="./Members.html">Members</a> | </p></span>
-      <span><p><a href="./Goals.html">Goals</a> | </p></span> 
-      <span><p><a href="./index.html">Logout</a></p></span>
-     </nav>
+  <div class="container">
+    <span><p>This website plays audio. Volume Warning.</p></span>
+              <nav>
+                <span><p><a href="./Frontpage.php">Front Page</a> | </p></span>
+                <span><p><a href="./Members.php">Members</a> | </p></span>
+                <span><p><a href="./Goals.php">Goals</a> | </p></span> 
+                <span><p><a href="./index.php">Logout</a> </p></span>
+               </nav>
   </div>
   <div class="container">
   <!-- Goals -->
@@ -31,6 +37,5 @@
   </div>
   </div>
   <script src="script.js"></script>
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
 </html>
